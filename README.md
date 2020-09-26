@@ -1,2 +1,2 @@
 # Array-in-C
-Some kind of a (not really)
+Some kind of array (not really)
