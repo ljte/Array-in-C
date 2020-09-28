@@ -1,12 +1,10 @@
 #include "array.h"
-#include "stdlib.h"
-#include "string.h"
 
 
 int main(int argc, char** argv) {
     Array* arr = init_array(10);
     Array* arr2 = init_array(10);
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < arr->size; i++) {
         arr->arr[i] = i;
     }
 
